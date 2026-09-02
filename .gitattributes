@@ -1,2 +1,64 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings to LF
 * text=auto
+
+# ===========================================
+# Source Code (LF)
+# ===========================================
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.S text eol=lf
+*.asm text eol=lf
+*.inc text eol=lf
+Makefile text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Configuration files
+*.mk text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# ===========================================
+# Binary Files (Do not touch)
+# ===========================================
+*.bin binary
+*.hex binary
+*.elf binary
+*.axf binary
+*.out binary
+*.o binary
+*.obj binary
+*.a binary
+*.lib binary
+*.so binary
+*.dll binary
+*.exe binary
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+
+# PDF and Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+
+# Compiled files
+*.pyc binary
+*.class binary
+*.jar binary

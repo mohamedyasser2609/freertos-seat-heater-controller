@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;tm4c123gh6pm_registers.h&apos; to &apos;MCAL&apos;" description="Move &apos;tm4c123gh6pm_registers.h&apos; to &apos;MCAL&apos;" destination="MCAL" element1="tm4c123gh6pm_registers.h" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1742615095373" updateReferences="true"/>
+</session>

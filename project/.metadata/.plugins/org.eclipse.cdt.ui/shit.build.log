@@ -1,0 +1,98 @@
+
+**** Build of configuration Debug for project shit ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../FreeRTOS/Source/event_groups.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/event_groups.d_raw" --obj_directory="FreeRTOS/Source"  "../FreeRTOS/Source/event_groups.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/event_groups.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/event_groups.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/event_groups.obj] Error 1
+Building file: "../FreeRTOS/Source/list.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/list.d_raw" --obj_directory="FreeRTOS/Source"  "../FreeRTOS/Source/list.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/list.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/list.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/list.obj] Error 1
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../FreeRTOS/Source/queue.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/queue.d_raw" --obj_directory="FreeRTOS/Source"  "../FreeRTOS/Source/queue.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/queue.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/queue.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/queue.obj] Error 1
+Building file: "../FreeRTOS/Source/tasks.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/tasks.d_raw" --obj_directory="FreeRTOS/Source"  "../FreeRTOS/Source/tasks.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/tasks.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/tasks.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/tasks.obj] Error 1
+Building file: "../FreeRTOS/Source/timers.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/timers.d_raw" --obj_directory="FreeRTOS/Source"  "../FreeRTOS/Source/timers.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/timers.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/timers.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/timers.obj] Error 1
+Building file: "../FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/portable/CCS/ARM_CM4F/port.d_raw" --obj_directory="FreeRTOS/Source/portable/CCS/ARM_CM4F"  "../FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/portable/CCS/ARM_CM4F/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/portable/CCS/ARM_CM4F/port.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/portable/CCS/ARM_CM4F/port.obj] Error 1
+Building file: "../FreeRTOS/Source/portable/MemMang/heap_4.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/portable/MemMang/heap_4.d_raw" --obj_directory="FreeRTOS/Source/portable/MemMang"  "../FreeRTOS/Source/portable/MemMang/heap_4.c"
+ 
+>> Compilation failure
+FreeRTOS/Source/portable/MemMang/subdir_rules.mk:9: recipe for target 'FreeRTOS/Source/portable/MemMang/heap_4.obj' failed
+"F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include/FreeRTOS.h", line 59: fatal error #1965: cannot open source file "FreeRTOSConfig.h"
+1 catastrophic error detected in the compilation of "../FreeRTOS/Source/portable/MemMang/heap_4.c".
+Compilation terminated.
+gmake: *** [FreeRTOS/Source/portable/MemMang/heap_4.obj] Error 1
+Building file: "../FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="F:/Advanced embedded diploma/RTOS/project/shit" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/include" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/CCS/ARM_CM4F" --include_path="F:/Advanced embedded diploma/RTOS/project/shit/FreeRTOS/Source/portable/MemMang" --include_path="C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.d_raw" --obj_directory="FreeRTOS/Source/portable/CCS/ARM_CM4F"  "../FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+Finished building: "../FreeRTOS/Source/portable/CCS/ARM_CM4F/portasm.asm"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

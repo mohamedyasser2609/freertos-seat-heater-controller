@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project RTOS_project1 ****
+
+"C:\\ti\\ccs1281\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'RTOS_project1.out' is up to date.
+
+**** Build Finished ****

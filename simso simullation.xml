@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<simulation cycles_per_ms="1000000" duration="2000000000" etm="wcet">
+	<sched class="simso.schedulers.FP" overhead="50000" overhead_activate="50000" overhead_terminate="50000"/>
+	<caches memory_access_time="100"/>
+	<processors>
+		<processor cl_overhead="50000" cs_overhead="50000" id="1" name="CPU 1" speed="1.0"/>
+	</processors>
+	<tasks>
+		<field name="priority" type="int"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="100.0" et_stddev="0.0" id="1" instructions="0" list_activation_dates="" mix="0.5" name="SafteyTask" period="100.0" preemption_cost="0" priority="4" task_type="Periodic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="100.0" et_stddev="0.0" id="2" instructions="0" list_activation_dates="" mix="0.5" name="DriverSeatTask" period="100.0" preemption_cost="0" priority="2" task_type="Periodic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="100.0" et_stddev="0.0" id="3" instructions="0" list_activation_dates="" mix="0.5" name="PassengerSeatTask" period="100.0" preemption_cost="0" priority="2" task_type="Periodic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="1000.0" et_stddev="0.0" id="4" instructions="0" list_activation_dates="" mix="0.5" name="PowerManagementTask" period="1000.0" preemption_cost="0" priority="3" task_type="Periodic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="1000.0" et_stddev="0.0" id="5" instructions="0" list_activation_dates="" mix="0.5" name="StatisticsTask" period="1000.0" preemption_cost="0" priority="1" task_type="Periodic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="100.0" et_stddev="0.0" id="6" instructions="0" list_activation_dates="0.0, 100.0, 200.0, 300.0, 400.0, 500.0" mix="0.5" name="DiagnosticTask" period="10.0" preemption_cost="0" priority="3" task_type="Sporadic"/>
+		<task ACET="0.0" WCET="1.0" abort_on_miss="yes" activationDate="0.0" base_cpi="1.0" deadline="100.0" et_stddev="0.0" id="7" instructions="0" list_activation_dates="0.0, 100.0, 200.0, 300.0, 400.0, 500.0" mix="0.5" name="DisplayTask" period="10.0" preemption_cost="0" priority="1" task_type="Sporadic"/>
+	</tasks>
+</simulation>
